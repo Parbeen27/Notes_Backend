@@ -9,7 +9,10 @@ A robust, production-ready backend API built with Node.js, Express.js, MongoDB, 
 https://parbeen-s-team.docs.buildwithfern.com/notes-baclend-api/localhost-3000-api-admin
 
 🔗 Live Backend URL:  
-https://your-backend.onrender.com
+https://notes-backend-crcj.onrender.com
+
+🔗 Live Frontend URL:  
+https://notes-frontend-one-nu.vercel.app/
 
 ## 📋 Project Overview
 
@@ -497,7 +500,7 @@ curl -X GET http://localhost:3000/api/user/profile \
 ## 🌐 Deployment Link
 
 ### Live API URL
-**https://mern-backend-production.onrender.com**
+[Postman document](https://parbeen-s-team.docs.buildwithfern.com/notes-baclend-api/localhost-3000-api-admin)
 
 ### Deployment Details
 - **Platform**: Render
@@ -536,7 +539,7 @@ The application is deployed on Render using the following steps:
 
 Test the live deployment:
 ```bash
-curl https://mern-backend-production.onrender.com/api/auth/checklogin
+curl https://notes-backend-crcj.onrender.com/api/auth/checklogin
 ```
 
 ### Monitoring
@@ -573,7 +576,7 @@ const hashedPassword = await bcrypt.hash(plainPassword, 10);
 ```javascript
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://frontend-production.com"
+  "https://notes-frontend-one-nu.vercel.app"
 ];
 ```
 
@@ -675,10 +678,8 @@ app.use(helmet());
 
 Parbeen Singh Panwar
 - **Email**: parbeensingh27@gmail.com
-- **GitHub**: [@Parbeen27](https://github.com/yourusername)
-- **LinkedIn**: [your-linkedin](https://linkedin.com/in/yourprofile)
-
-
+- **GitHub**: [@Parbeen27](https://github.com/Parbeen27)
+- **LinkedIn**: [Parbeen](https://www.linkedin.com/in/parbeen-singh-b75289249?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 ---
 
@@ -698,7 +699,7 @@ For contributions or feedback, please reach out directly.
 
 For issues, questions, or feedback:
 - Email: parbeensingh@gmail.com
-- GitHub Issues: [Create an issue](https://github.com/yourusername/mern-backend/issues)
+- GitHub Issues: [Create an issue](https://github.com/Parbeen27/Notes_Backend)
 
 ---
 
